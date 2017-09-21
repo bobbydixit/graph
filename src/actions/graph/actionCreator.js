@@ -11,3 +11,7 @@ export function submitDates() {
 export function queryRecieved(data) {
   return { type: Actions.QUERY_RECIEVED, data}
 }
+
+export function queryFailed() {
+  return { type: Actions.QUERY_FAILED }
+}

@@ -18,7 +18,8 @@ export default (state = initialState, action = {}) => {
     }
     case Actions.SUBMIT_DATES:
       return Object.assign({}, state, {
-        requestingData: true
+        requestingData: true,
+        data: []
       })
     case Actions.QUERY_RECIEVED: {
       const {data} = action
@@ -27,6 +28,10 @@ export default (state = initialState, action = {}) => {
         data
       })
     }
+    case Actions.QUERY_FAILED:
+      return Object.assign({}, state, {
+        requestingData: false
+      })
     default:
       return state
   }

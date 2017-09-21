@@ -13,7 +13,7 @@ function* submitDates() {
     })).data;
     yield put(ActionCreators.queryRecieved(usage.data));
   } catch (e) {
-    console.error(e, 'catch block of watchPatientFetch');
+    yield put(ActionCreators.queryFailed())
   }
 }
 export default function* patientHeaderSaga() {

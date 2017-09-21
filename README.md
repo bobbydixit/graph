@@ -1,4 +1,4 @@
-Install all dependencies
+# Install all dependencies
 ```
 $ yarn
 ```
