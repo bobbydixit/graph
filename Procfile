@@ -1,2 +1,2 @@
-web: npm run deploy
+web: sudo npm run deploy
 NPM_CONFIG_PRODUCTION: false
