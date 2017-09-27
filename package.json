@@ -1,6 +1,6 @@
 {
   "name": "boilerplate_2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "it builds with react,redux,react-redux-router,webpack,babel,es6,autoprefixer,hmr,css-module etc",
   "main": "index.js",
