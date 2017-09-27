@@ -82,6 +82,7 @@ module.exports = {
     stats: { chunks:false },
     contentBase: './src',
     hot: true,
+    port: process.env.PORT || 8010,
     proxy: {
       '/data/**': {
         target: 'http://104.197.128.152/',

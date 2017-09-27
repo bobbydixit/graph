@@ -7,8 +7,8 @@
   "repository": "git@code.59store.com:fe/rrrw.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=dev webpack-dashboard  -c cyan -- webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 5959",
-    "deploy": "NODE_ENV=dev webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 8080"
+    "start": "NODE_ENV=dev webpack-dashboard  -c cyan -- webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors",
+    "deploy": "NODE_ENV=dev webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors"
   },
   "dependencies": {
     "autoprefixer": "^6.4.0",
