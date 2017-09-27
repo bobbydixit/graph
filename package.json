@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=dev webpack-dashboard  -c cyan -- webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 5959",
-    "deploy": "NODE_ENV=dev webpack-dashboard  -c cyan -- webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 80"
+    "deploy": "NODE_ENV=dev webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 80"
   },
   "dependencies": {
     "autoprefixer": "^6.4.0",
